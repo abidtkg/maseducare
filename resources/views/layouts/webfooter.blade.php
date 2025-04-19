@@ -34,10 +34,10 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-uppercase mb-4">Contact Us</h5>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> 123 Education Road, Dhaka, Bangladesh</li>
-                    <li class="mb-2"><i class="fas fa-phone me-2"></i> +880 1234 567890</li>
-                    <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@maseducare.com</li>
-                    <li class="mb-2"><i class="fas fa-clock me-2"></i> Mon-Sat: 9:00 AM - 6:00 PM</li>
+                    <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> House-182, Road-E1, Block-B, Eastern Housing (Pallabi Phase 2), Rupnagar, Mirpur, Dhaka-1216, Bangladesh.</li>
+                    <li class="mb-2"><i class="fas fa-phone me-2"></i> +880 1867-888667, +880 1812-542969</li>
+                    <li class="mb-2"><i class="fas fa-envelope me-2"></i> masinternationaleducare.bd@gmai<br>l.com</li>
+                    <li class="mb-2"><i class="fas fa-clock me-2"></i> Sat-Thu: 9:00 AM - 6:00 PM</li>
                 </ul>
             </div>
         </div>
@@ -47,7 +47,7 @@
                 <p class="mb-0">&copy; 2025 MAS Edu Care. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-end">
-                <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> for Japanese learners</p>
+                <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by <a href="https://abid.con.bd" class="text-white" target="_blank">Abid H.</a> </p>
             </div>
         </div>
     </div>
