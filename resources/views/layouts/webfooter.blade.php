@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
                 <img src="https://res.cloudinary.com/abidcloud/image/upload/v1745085167/logo/1000012780_lgwdhe.png" alt="MAS Edu Care Logo" height="50" class="mb-3">
-                <p>MAS Edu Care is a premier Japanese language learning center in Bangladesh, offering quality education and visa processing services.</p>
+                <p>MAS International Educare is a premier Japanese language learning center in Bangladesh, offering quality education and visa processing services.</p>
                 <div class="mt-4">
                     <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
@@ -28,7 +28,7 @@
                     <li class="mb-2"><a href="#">Intermediate Japanese</a></li>
                     <li class="mb-2"><a href="#">Advanced Japanese</a></li>
                     <li class="mb-2"><a href="#">JLPT Preparation</a></li>
-                    <li class="mb-2"><a href="#">Business Japanese</a></li>
+                    <li class="mb-2"><a href="#">NAT Preparation</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -44,10 +44,10 @@
         <hr class="my-4 bg-light">
         <div class="row">
             <div class="col-md-6 text-center text-md-start">
-                <p class="mb-0">&copy; 2025 MAS Edu Care. All rights reserved.</p>
+                <p class="mb-0">&copy; 2025 MAS International Educare. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-center text-md-end">
-                <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by <a href="https://abid.con.bd" class="text-white" target="_blank">Abid H.</a> </p>
+                <p class="mb-0">Developed by <a href="https://abid.com.bd" class="text-white" target="_blank">Abid Hasan</a> </p>
             </div>
         </div>
     </div>

@@ -1,5 +1,5 @@
 @extends('layouts.webmaster')
-@section('title', 'MAS Edu Care - Japanese Language Learning Center in Bangladesh')
+@section('title', 'MAS International Educare - Japanese Language Learning Center in Bangladesh')
 @section('page-css')
 <style>
     .hero-section {
@@ -48,7 +48,7 @@
 <!-- Hero Section -->
 <section class="hero-section text-center">
     <div class="container">
-        <h1 class="display-4 fw-bold mb-4">Learn Japanese with MAS Edu Care</h1>
+        <h1 class="display-4 fw-bold mb-4">Learn Japanese with MAS International Educare</h1>
         <p class="lead mb-5">Your pathway to Japanese language proficiency and work opportunities in Japan</p>
         <div class="d-flex justify-content-center gap-3">
             <a href="#" class="btn btn-primary-custom btn-lg px-4">Start Learning</a>
@@ -61,7 +61,7 @@
 <section class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Why Choose MAS Edu Care?</h2>
+            <h2 class="fw-bold">Why Choose MAS International Educare?</h2>
             <p class="text-muted">We provide the best Japanese language education in Bangladesh</p>
         </div>
         <div class="row g-4">
@@ -104,9 +104,10 @@
                 <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Japanese Class" class="img-fluid rounded">
             </div>
             <div class="col-lg-6">
-                <h2 class="fw-bold mb-4">About MAS Edu Care</h2>
+                <h2 class="fw-bold mb-0">About</h2>
+                <p class="mt-0">MAS International Educare</p>
                 <p class="lead">Leading Japanese language education center in Bangladesh.</p>
-                <p>MAS Edu Care is dedicated to providing high-quality Japanese language education and facilitating student work visas to Japan. Our mission is to bridge the cultural and linguistic gap between Bangladesh and Japan.</p>
+                <p>MAS International Educare is dedicated to providing high-quality Japanese language education and facilitating student work visas to Japan. Our mission is to bridge the cultural and linguistic gap between Bangladesh and Japan.</p>
                 <ul class="list-unstyled">
                     <li class="mb-2"><i class="fas fa-check text-primary-custom me-2"></i> Certified Japanese language courses</li>
                     <li class="mb-2"><i class="fas fa-check text-primary-custom me-2"></i> Experienced native and local teachers</li>
@@ -180,12 +181,12 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <div class="testimonial-card p-3">
-                            <p class="fst-italic">"MAS Edu Care helped me achieve N2 level in just 1 year. Their teaching methods are excellent and the teachers are very supportive."</p>
+                            <p class="fst-italic">"MAS International Educare helped me achieve N5 level in just in year. Their teaching methods are excellent and the teachers are very supportive."</p>
                             <div class="d-flex align-items-center mt-3">
-                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Student" class="rounded-circle me-3" width="50">
+                                <img src="{{ asset('images/person-1.jpeg') }}" alt="Student" class="rounded-circle me-3" width="50">
                                 <div>
-                                    <h6 class="mb-0">Rahim Khan</h6>
-                                    <small class="text-muted">JLPT N2 Passed</small>
+                                    <h6 class="mb-0">Md. Mahdi Hasan</h6>
+                                    <small class="text-muted">N5 Passed</small>
                                 </div>
                             </div>
                         </div>
@@ -196,12 +197,12 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <div class="testimonial-card p-3">
-                            <p class="fst-italic">"The visa processing support was flawless. I'm now working in Tokyo thanks to MAS Edu Care's guidance throughout the entire process."</p>
+                            <p class="fst-italic">"The visa processing support was flawless. I'm now working in Nagoya thanks to MAS International Educare's guidance throughout the entire process."</p>
                             <div class="d-flex align-items-center mt-3">
-                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Student" class="rounded-circle me-3" width="50">
+                                <img src="{{ asset('images/person-2.jpeg') }}" alt="Student" class="rounded-circle me-3" width="50">
                                 <div>
-                                    <h6 class="mb-0">Tasnim Ahmed</h6>
-                                    <small class="text-muted">Working in Tokyo</small>
+                                    <h6 class="mb-0">Md. Mahbubur Rahman</h6>
+                                    <small class="text-muted">N4 Passsed</small>
                                 </div>
                             </div>
                         </div>
@@ -214,10 +215,10 @@
                         <div class="testimonial-card p-3">
                             <p class="fst-italic">"The facilities are modern and the curriculum is well-structured. I improved from zero to conversational level in just 6 months."</p>
                             <div class="d-flex align-items-center mt-3">
-                                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Student" class="rounded-circle me-3" width="50">
+                                <img src="{{ asset('images/person-3.jpeg') }}" alt="Student" class="rounded-circle me-3" width="50">
                                 <div>
-                                    <h6 class="mb-0">Arif Hossain</h6>
-                                    <small class="text-muted">Current Student</small>
+                                    <h6 class="mb-0">Md. Shahed</h6>
+                                    <small class="text-muted">N5 Passed</small>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +233,7 @@
 <section class="py-5 bg-primary-custom text-white">
     <div class="container text-center">
         <h2 class="fw-bold mb-4">Ready to Start Your Japanese Language Journey?</h2>
-        <p class="lead mb-5">Join MAS Edu Care today and take the first step towards your future in Japan.</p>
+        <p class="lead mb-5">Join MAS International Educare today and take the first step towards your future in Japan.</p>
         <div class="d-flex justify-content-center gap-3">
             <a href="#" class="btn btn-light btn-lg px-4">Contact Us</a>
             <a href="#" class="btn btn-outline-light btn-lg px-4">Apply Now</a>
