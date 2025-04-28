@@ -25,4 +25,9 @@ class WebController extends Controller
     {
         return view('web.contact');
     }
+
+    public function gallery()
+    {
+        return view('web.gallery');
+    }
 }

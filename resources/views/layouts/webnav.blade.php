@@ -20,6 +20,9 @@
                 <li class="nav-item">
                     <a class="nav-link {{ request()->routeIs('web.contact') ? 'active' : '' }}" href="{{ route('web.contact') }}">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('web.gallery') ? 'active' : '' }}" href="{{ route('web.gallery') }}">Gallery</a>
+                </li>
             </ul>
             <a href="#" class="btn btn-primary-custom ms-lg-3">Apply Now</a>
         </div>
