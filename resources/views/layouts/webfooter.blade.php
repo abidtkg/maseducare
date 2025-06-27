@@ -35,7 +35,7 @@
                 <h5 class="text-uppercase mb-4">Contact Us</h5>
                 <ul class="list-unstyled">
                     <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> House-182, Road-E1, Block-B, Eastern Housing (Pallabi Phase 2), Rupnagar, Mirpur, Dhaka-1216, Bangladesh.</li>
-                    <li class="mb-2"><i class="fas fa-phone me-2"></i> +880 1867-888667, +880 1812-542969</li>
+                    <li class="mb-2"><i class="fas fa-phone me-2"></i> +880 1867-888667</li>
                     <li class="mb-2"><i class="fas fa-envelope me-2"></i> masinternationaleducare.bd@gmai<br>l.com</li>
                     <li class="mb-2"><i class="fas fa-clock me-2"></i> Sat-Thu: 9:00 AM - 6:00 PM</li>
                 </ul>

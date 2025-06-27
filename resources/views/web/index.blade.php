@@ -197,7 +197,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <div class="testimonial-card p-3">
-                            <p class="fst-italic">"The visa processing support was flawless. I'm now working in Nagoya thanks to MAS International Educare's guidance throughout the entire process."</p>
+                            <p class="fst-italic">"The visa processing support was flawless. Thanks to MAS International Educare's guidance throughout the entire process."</p>
                             <div class="d-flex align-items-center mt-3">
                                 <img src="{{ asset('images/person-2.jpeg') }}" alt="Student" class="rounded-circle me-3" width="50">
                                 <div>
