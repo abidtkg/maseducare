@@ -1,5 +1,5 @@
 @extends('layouts.webmaster')
-@section('title', 'Contact Us - MAS International Educare | Japanese Language Center in Bangladesh')
+@section('title', 'Contact Us - MAS Educare | Japanese Language Center in Bangladesh')
 @section('page-css')
 <style>
     .page-header {
@@ -46,7 +46,7 @@
  <!-- Page Header -->
  <section class="page-header">
     <div class="container">
-        <h1 class="display-4 fw-bold mb-3">Contact MAS International Educare</h1>
+        <h1 class="display-4 fw-bold mb-3">Contact MAS Educare</h1>
         <p class="lead mb-4">We're here to answer your questions about Japanese language courses and visa processing</p>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center bg-transparent">

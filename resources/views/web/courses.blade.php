@@ -1,5 +1,5 @@
 @extends('layouts.webmaster')
-@section('title', 'Japanese Language Courses - MAS International Educare | Bangladesh')
+@section('title', 'Japanese Language Courses - MAS Educare | Bangladesh')
 @section('page-css')
 <style>
     .page-header {

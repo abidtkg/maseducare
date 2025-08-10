@@ -1,5 +1,5 @@
 @extends('layouts.webmaster')
-@section('title', 'Gallery - MAS International Educare | Bangladesh')
+@section('title', 'Gallery - MAS Educare | Bangladesh')
 @section('page-css')
 <style>
     .page-header {

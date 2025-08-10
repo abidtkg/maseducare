@@ -1,5 +1,5 @@
 @extends('layouts.webmaster')
-@section('title', 'About Us - MAS International Educare | Japanese Language Learning Center in Bangladesh')
+@section('title', 'About Us - MAS Educare | Japanese Language Learning Center in Bangladesh')
 @section('page-css')
 <style>
     .page-header {
@@ -112,7 +112,7 @@
  <!-- Page Header -->
  <section class="page-header">
     <div class="container">
-        <h1 class="display-4 fw-bold mb-3">About MAS International Educare</h1>
+        <h1 class="display-4 fw-bold mb-3">About MAS Educare</h1>
         <p class="lead mb-4">Your trusted partner for Japanese language education and work visa processing</p>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb justify-content-center bg-transparent">
@@ -130,7 +130,7 @@
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <h2 class="fw-bold mb-4 text-primary-custom">Our Story</h2>
                 <p class="lead">Pioneering Japanese language education in Bangladesh since 2010.</p>
-                <p>MAS International Educare was founded with a vision to bridge the cultural and linguistic gap between Bangladesh and Japan. What began as a small language center has now grown into one of the most trusted institutions for Japanese language learning and student work visa processing in Bangladesh.</p>
+                <p>MAS Educare was founded with a vision to bridge the cultural and linguistic gap between Bangladesh and Japan. What began as a small language center has now grown into one of the most trusted institutions for Japanese language learning and student work visa processing in Bangladesh.</p>
                 <p>Our journey has been marked by thousands of success stories - students who have not only mastered the Japanese language but have also successfully established their careers in Japan. We take pride in being more than just a language school; we are a gateway to new opportunities and cultural exchange.</p>
                 <a href="contact.html" class="btn btn-primary-custom mt-3">Get in Touch</a>
             </div>
@@ -217,7 +217,7 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="fw-bold">Meet Our Leadership</h2>
-            <p>The dedicated professionals behind MAS International Educare</p>
+            <p>The dedicated professionals behind MAS Educare</p>
         </div>
         <div class="row g-4">
             <div class="col-md-4">

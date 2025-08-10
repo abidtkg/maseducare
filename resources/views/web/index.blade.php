@@ -1,5 +1,5 @@
 @extends('layouts.webmaster')
-@section('title', 'MAS International Educare - Japanese Language Learning Center in Bangladesh')
+@section('title', 'MAS Educare - Japanese Language Learning Center in Bangladesh')
 @section('page-css')
 <style>
     .hero-section {
@@ -48,7 +48,7 @@
 <!-- Hero Section -->
 <section class="hero-section text-center">
     <div class="container">
-        <h1 class="display-4 fw-bold mb-4">Learn Japanese with MAS International Educare</h1>
+        <h1 class="display-4 fw-bold mb-4">Learn Japanese with MAS Educare</h1>
         <p class="lead mb-5">Your pathway to Japanese language proficiency and work opportunities in Japan</p>
         <div class="d-flex justify-content-center gap-3">
             <a href="#" class="btn btn-primary-custom btn-lg px-4">Start Learning</a>
@@ -61,7 +61,7 @@
 <section class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Why Choose MAS International Educare?</h2>
+            <h2 class="fw-bold">Why Choose MAS Educare?</h2>
             <p class="text-muted">We provide the best Japanese language education in Bangladesh</p>
         </div>
         <div class="row g-4">
@@ -105,9 +105,9 @@
             </div>
             <div class="col-lg-6">
                 <h2 class="fw-bold mb-0">About</h2>
-                <p class="mt-0">MAS International Educare</p>
+                <p class="mt-0">MAS Educare</p>
                 <p class="lead">Leading Japanese language education center in Bangladesh.</p>
-                <p>MAS International Educare is dedicated to providing high-quality Japanese language education and facilitating student work visas to Japan. Our mission is to bridge the cultural and linguistic gap between Bangladesh and Japan.</p>
+                <p>MAS Educare is dedicated to providing high-quality Japanese language education and facilitating student work visas to Japan. Our mission is to bridge the cultural and linguistic gap between Bangladesh and Japan.</p>
                 <ul class="list-unstyled">
                     <li class="mb-2"><i class="fas fa-check text-primary-custom me-2"></i> Certified Japanese language courses</li>
                     <li class="mb-2"><i class="fas fa-check text-primary-custom me-2"></i> Experienced native and local teachers</li>
@@ -181,7 +181,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <div class="testimonial-card p-3">
-                            <p class="fst-italic">"MAS International Educare helped me achieve N5 level in just in year. Their teaching methods are excellent and the teachers are very supportive."</p>
+                            <p class="fst-italic">"MAS Educare helped me achieve N5 level in just in year. Their teaching methods are excellent and the teachers are very supportive."</p>
                             <div class="d-flex align-items-center mt-3">
                                 <img src="{{ asset('images/person-1.jpeg') }}" alt="Student" class="rounded-circle me-3" width="50">
                                 <div>
@@ -197,7 +197,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <div class="testimonial-card p-3">
-                            <p class="fst-italic">"The visa processing support was flawless. Thanks to MAS International Educare's guidance throughout the entire process."</p>
+                            <p class="fst-italic">"The visa processing support was flawless. Thanks to MAS Educare's guidance throughout the entire process."</p>
                             <div class="d-flex align-items-center mt-3">
                                 <img src="{{ asset('images/person-2.jpeg') }}" alt="Student" class="rounded-circle me-3" width="50">
                                 <div>
@@ -233,7 +233,7 @@
 <section class="py-5 bg-primary-custom text-white">
     <div class="container text-center">
         <h2 class="fw-bold mb-4">Ready to Start Your Japanese Language Journey?</h2>
-        <p class="lead mb-5">Join MAS International Educare today and take the first step towards your future in Japan.</p>
+        <p class="lead mb-5">Join MAS Educare today and take the first step towards your future in Japan.</p>
         <div class="d-flex justify-content-center gap-3">
             <a href="#" class="btn btn-light btn-lg px-4">Contact Us</a>
             <a href="#" class="btn btn-outline-light btn-lg px-4">Apply Now</a>
