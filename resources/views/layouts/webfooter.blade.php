@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
-                <img src="https://res.cloudinary.com/abidcloud/image/upload/v1745085167/logo/1000012780_lgwdhe.png" alt="MAS Edu Care Logo" height="50" class="mb-3">
+                <img src="{{ asset('images/logo-square.png') }}" alt="MAS Edu Care Logo" height="50" class="mb-3">
                 <p>MAS Educare is a premier Japanese language learning center in Bangladesh, offering quality education and visa processing services.</p>
                 <div class="mt-4">
                     <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>

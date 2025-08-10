@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div class="container">
         <a class="navbar-brand" href="{{ route('web.index') }}">
-            <img src="https://res.cloudinary.com/abidcloud/image/upload/v1745085167/logo/1000012780_lgwdhe.png" alt="MAS Edu Care Logo" height="50">    
+            <img src="{{ asset('images/logo-square.png') }}" alt="MAS Edu Care Logo" height="50">    
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
