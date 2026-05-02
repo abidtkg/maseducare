@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\ImageManager;
 use Intervention\Image\Drivers\Gd\Driver;
+use Intervention\Image\Encoders\JpegEncoder;
 
 trait HandlesImageUpload
 {
@@ -15,14 +16,14 @@ trait HandlesImageUpload
         $file = $request->file($field);
         $filename = Str::uuid() . '.' . $file->extension();
         $manager = new ImageManager(new Driver());
-        $image = $manager->read($file->getPathname());
+        $image = $manager->decode($file->getPathname());
 
         if ($image->width() > $maxWidth) {
             $image->scale(width: $maxWidth);
         }
 
         $path = "uploads/{$folder}/{$filename}";
-        Storage::disk('public')->put($path, $image->toJpeg(85));
+        Storage::disk('public')->put($path, $image->encode(new JpegEncoder(85)));
 
         return $path;
     }
