@@ -157,7 +157,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-title">{{ __('messages.footer.contact_info') }}</div>
                 <ul class="list-unstyled mt-3" style="line-height:2.4">
-                    <li><i class="bi bi-geo-alt-fill text-crimson me-2"></i>{{ setting('general.address') }}</li>
+                    <li><i class="bi bi-geo-alt-fill text-crimson me-2"></i><a href="https://maps.app.goo.gl/iAUZDX1T5rQa8yko9" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">{{ setting('general.address') }} <i class="bi bi-box-arrow-up-right" style="font-size:.7rem;opacity:.7"></i></a></li>
                     <li><i class="bi bi-telephone-fill text-crimson me-2"></i><a href="tel:{{ setting('general.phone') }}">{{ setting('general.phone') }}</a></li>
                     <li><i class="bi bi-envelope-fill text-crimson me-2"></i><a href="mailto:{{ setting('general.email') }}">{{ setting('general.email') }}</a></li>
                     <li><i class="bi bi-clock-fill text-crimson me-2"></i>{{ setting('general.office_hours') }}</li>
@@ -168,7 +168,7 @@
     <div class="footer-bottom">
         <div class="container d-flex justify-content-between flex-wrap gap-2">
             <span>&copy; {{ date('Y') }} {{ setting('general.site_name', 'MAS EduCare') }}. {{ __('messages.footer.all_rights') }}</span>
-            <span>{{ __('messages.footer.dev_by') }} <strong>Abid Hasan</strong></span>
+            <span>{{ __('messages.footer.dev_by') }} <strong> <a href="https://abid.com.bd" target="_blank">Abid Hasan</a> </strong></span>
         </div>
     </div>
 </footer>
