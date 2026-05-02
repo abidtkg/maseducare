@@ -84,7 +84,7 @@
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">
             @if(setting('general.logo'))
-                <img src="{{ asset('storage/'.setting('general.logo')) }}" alt="{{ setting('general.site_name') }}" height="40" class="me-2">
+                <img src="{{ asset(setting('general.logo')) }}" alt="{{ setting('general.site_name') }}" height="40" class="me-2">
             @else
                 MAS <span style="color:var(--mas-sakura)">EduCare</span>
             @endif

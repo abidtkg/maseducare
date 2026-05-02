@@ -118,7 +118,7 @@
         </div>
 
         <div class="mt-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.5!2d90.3679!3d23.7972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ3JzUwLjkiTiA5MMKwMjInMDQuNCJF!5e0!3m2!1sen!2sbd!4v1" width="100%" height="380" style="border:0;border-radius:12px;box-shadow:var(--shadow)" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6396.19634121269!2d90.36970202259606!3d23.80498824097255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c134faa2608f%3A0x9cc5cb6090037683!2sMAS%20EDUCARE!5e0!3m2!1sen!2sbd!4v1777736172661!5m2!1sen!2sbd" width="100%" height="380" style="border:0;border-radius:12px;box-shadow:var(--shadow)" allowfullscreen loading="lazy"></iframe>
         </div>
     </div>
 </section>

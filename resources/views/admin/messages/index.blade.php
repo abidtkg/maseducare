@@ -33,7 +33,6 @@
                         </td>
                     </tr>
                     @empty
-                    <tr><td colspan="6" class="text-center py-4 text-muted">No messages yet</td></tr>
                     @endforelse
                 </tbody>
             </table>

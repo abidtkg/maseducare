@@ -19,7 +19,7 @@
                     <tr>
                         <td class="px-4 py-3">
                             @if($m->photo)
-                                <img src="{{ asset('storage/'.$m->photo) }}" style="width:44px;height:44px;border-radius:50%;object-fit:cover">
+                                <img src="{{ asset($m->photo) }}" style="width:44px;height:44px;border-radius:50%;object-fit:cover">
                             @else
                                 <div style="width:44px;height:44px;border-radius:50%;background:#F0F0F0;display:flex;align-items:center;justify-content:center"><i class="bi bi-person text-muted"></i></div>
                             @endif
@@ -43,7 +43,6 @@
                         </td>
                     </tr>
                     @empty
-                    <tr><td colspan="7" class="text-center py-4 text-muted">No team members yet. <a href="{{ route('admin.team.create') }}">Add one</a></td></tr>
                     @endforelse
                 </tbody>
             </table>

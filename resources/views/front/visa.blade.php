@@ -70,8 +70,8 @@
             @foreach($visaGallery as $item)
             <div class="col-lg-3 col-md-4 col-6">
                 <div class="gallery-item">
-                    <a href="{{ asset('storage/'.$item->image) }}" class="glightbox" data-title="{{ $item->title }}">
-                        <img src="{{ asset('storage/'.$item->image) }}" alt="{{ $item->title }}" loading="lazy">
+                    <a href="{{ asset($item->image) }}" class="glightbox" data-title="{{ $item->title }}">
+                        <img src="{{ asset($item->image) }}" alt="{{ $item->title }}" loading="lazy">
                         <div class="gallery-overlay"><p style="color:white;font-size:.85rem;margin:0">{{ $item->title }}</p></div>
                     </a>
                 </div>

@@ -31,7 +31,7 @@
                 <div class="col-md-6">
                     <label class="form-label">Replace Image (optional)</label>
                     @if($gallery->image)
-                    <div class="mb-2"><img src="{{ asset('storage/'.$gallery->image) }}" style="max-height:120px;border-radius:6px;border:1px solid #dee2e6"></div>
+                    <div class="mb-2"><img src="{{ asset($gallery->image) }}" style="max-height:120px;border-radius:6px;border:1px solid #dee2e6"></div>
                     @endif
                     <input type="file" name="image" class="form-control" accept="image/*">
                 </div>

@@ -16,7 +16,7 @@
         <div class="row align-items-center g-5">
             <div class="col-lg-4 text-center">
                 @if(setting('about.founder_photo'))
-                    <img src="{{ asset('storage/'.setting('about.founder_photo')) }}" alt="{{ setting('about.founder_name') }}" class="img-fluid rounded-3" style="max-height:420px;object-fit:cover;width:100%;box-shadow:var(--shadow-hover)">
+                    <img src="{{ asset(setting('about.founder_photo')) }}" alt="{{ setting('about.founder_name') }}" class="img-fluid rounded-3" style="max-height:420px;object-fit:cover;width:100%;box-shadow:var(--shadow-hover)">
                 @else
                     <div style="width:200px;height:200px;border-radius:50%;background:var(--mas-light-bg);display:flex;align-items:center;justify-content:center;margin:0 auto;font-size:5rem;color:var(--mas-crimson)"><i class="bi bi-person-circle"></i></div>
                 @endif
@@ -80,7 +80,7 @@
             <div class="col-lg-3 col-md-4 col-6">
                 <div style="background:white;border-radius:12px;box-shadow:var(--shadow);overflow:hidden;text-align:center;transition:transform .3s" onmouseover="this.style.transform='translateY(-6px)'" onmouseout="this.style.transform='translateY(0)'">
                     @if($member->photo)
-                        <img src="{{ asset('storage/'.$member->photo) }}" alt="{{ $member->name }}" style="width:100%;height:200px;object-fit:cover">
+                        <img src="{{ asset($member->photo) }}" alt="{{ $member->name }}" style="width:100%;height:200px;object-fit:cover">
                     @else
                         <div style="height:200px;background:var(--mas-light-bg);display:flex;align-items:center;justify-content:center;font-size:4rem;color:var(--mas-gray)"><i class="bi bi-person-fill"></i></div>
                     @endif

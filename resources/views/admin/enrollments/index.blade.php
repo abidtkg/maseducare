@@ -55,7 +55,6 @@
                         </td>
                     </tr>
                     @empty
-                    <tr><td colspan="7" class="text-center py-4 text-muted">No enrollments found</td></tr>
                     @endforelse
                 </tbody>
             </table>

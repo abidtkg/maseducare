@@ -14,7 +14,7 @@
                     <label class="form-label">{{ $s->label }}</label>
                     @if($s->type === 'image')
                         @if($s->value)
-                            <div class="mb-2"><img src="{{ asset('storage/'.$s->value) }}" style="max-height:100px;border-radius:6px;border:1px solid #dee2e6"></div>
+                            <div class="mb-2"><img src="{{ asset($s->value) }}" style="max-height:100px;border-radius:6px;border:1px solid #dee2e6"></div>
                         @endif
                         <input type="file" name="{{ str_replace('.', '_', $s->key) }}" class="form-control" accept="image/*">
                         <small class="text-muted">Recommended: 400×400px (square)</small>

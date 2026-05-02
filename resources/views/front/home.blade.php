@@ -13,7 +13,7 @@
     overflow: hidden;
 ">
     @if(setting('hero.background_image'))
-    <div style="position:absolute;inset:0;background:url('{{ asset('storage/'.setting('hero.background_image')) }}') center/cover no-repeat;opacity:.25"></div>
+    <div style="position:absolute;inset:0;background:url('{{ asset(setting('hero.background_image')) }}') center/cover no-repeat;opacity:.25"></div>
     @endif
     <svg style="position:absolute;right:-40px;top:50%;transform:translateY(-50%);opacity:.08;width:420px" viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="20" y="60" width="160" height="12" fill="#C8102E" rx="4"/>
@@ -95,7 +95,7 @@
         <div class="row align-items-center g-5">
             <div class="col-lg-4 text-center">
                 @if(setting('about.founder_photo'))
-                    <img src="{{ asset('storage/'.setting('about.founder_photo')) }}" alt="{{ setting('about.founder_name') }}" class="img-fluid rounded-3" style="box-shadow:var(--shadow-hover);max-height:380px;object-fit:cover;width:100%">
+                    <img src="{{ asset(setting('about.founder_photo')) }}" alt="{{ setting('about.founder_name') }}" class="img-fluid rounded-3" style="box-shadow:var(--shadow-hover);max-height:380px;object-fit:cover;width:100%">
                 @else
                     <div style="width:200px;height:200px;border-radius:50%;background:var(--mas-light-bg);display:flex;align-items:center;justify-content:center;margin:0 auto;font-size:5rem;color:var(--mas-crimson)">
                         <i class="bi bi-person-circle"></i>
@@ -206,8 +206,8 @@
             @foreach($featuredGallery as $item)
             <div class="col-lg-3 col-md-4 col-6">
                 <div class="gallery-item">
-                    <a href="{{ asset('storage/'.$item->image) }}" class="glightbox" data-title="{{ $item->title }}" data-description="{{ $item->caption }}">
-                        <img src="{{ asset('storage/'.$item->image) }}" alt="{{ $item->title }}" loading="lazy">
+                    <a href="{{ asset($item->image) }}" class="glightbox" data-title="{{ $item->title }}" data-description="{{ $item->caption }}">
+                        <img src="{{ asset($item->image) }}" alt="{{ $item->title }}" loading="lazy">
                         <div class="gallery-overlay">
                             <p style="color:white;font-size:.85rem;margin:0">{{ $item->title }}</p>
                         </div>
@@ -242,7 +242,7 @@
                             <div class="testimonial-card">
                                 <div class="d-flex align-items-center gap-3 mb-3">
                                     @if($t->photo)
-                                        <img src="{{ asset('storage/'.$t->photo) }}" alt="{{ $t->student_name }}" style="width:56px;height:56px;border-radius:50%;object-fit:cover">
+                                        <img src="{{ asset($t->photo) }}" alt="{{ $t->student_name }}" style="width:56px;height:56px;border-radius:50%;object-fit:cover">
                                     @else
                                         <div style="width:56px;height:56px;border-radius:50%;background:var(--mas-light-bg);display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:var(--mas-crimson)"><i class="bi bi-person-fill"></i></div>
                                     @endif

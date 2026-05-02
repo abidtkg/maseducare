@@ -143,7 +143,11 @@
     });
     $(document).ready(function() {
         if ($('.datatable').length) {
-            $('.datatable').DataTable({ pageLength: 25, order: [[1,'asc']] });
+            $('.datatable').DataTable({
+                pageLength: 25,
+                order: [[1, 'asc']],
+                language: { emptyTable: 'No records found.', zeroRecords: 'No matching records.' }
+            });
         }
     });
 </script>

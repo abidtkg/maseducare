@@ -41,7 +41,7 @@
                 <div class="col-md-6">
                     <label class="form-label">Photo (optional)</label>
                     @if($testimonial->photo)
-                    <div class="mb-2"><img src="{{ asset('storage/'.$testimonial->photo) }}" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:2px solid #dee2e6"></div>
+                    <div class="mb-2"><img src="{{ asset($testimonial->photo) }}" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:2px solid #dee2e6"></div>
                     @endif
                     <input type="file" name="photo" class="form-control" accept="image/*">
                 </div>

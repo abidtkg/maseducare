@@ -22,7 +22,7 @@
             <div class="col-lg-2 col-md-3 col-4">
                 <div style="background:white;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08);overflow:hidden">
                     <div style="position:relative">
-                        <img src="{{ asset('storage/'.$item->image) }}" alt="{{ $item->title }}" style="width:100%;height:120px;object-fit:cover">
+                        <img src="{{ asset($item->image) }}" alt="{{ $item->title }}" style="width:100%;height:120px;object-fit:cover">
                         @if($item->is_featured)
                         <span style="position:absolute;top:4px;right:4px;background:#C9A84C;color:white;font-size:.7rem;border-radius:4px;padding:2px 6px"><i class="bi bi-star-fill"></i></span>
                         @endif

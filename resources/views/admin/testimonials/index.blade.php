@@ -18,7 +18,7 @@
                 <tr>
                     <td class="px-4 py-3">
                         @if($t->photo)
-                            <img src="{{ asset('storage/'.$t->photo) }}" style="width:40px;height:40px;border-radius:50%;object-fit:cover">
+                            <img src="{{ asset($t->photo) }}" style="width:40px;height:40px;border-radius:50%;object-fit:cover">
                         @else
                             <div style="width:40px;height:40px;border-radius:50%;background:#F0F0F0;display:flex;align-items:center;justify-content:center"><i class="bi bi-person text-muted"></i></div>
                         @endif
@@ -37,7 +37,6 @@
                     </td>
                 </tr>
                 @empty
-                <tr><td colspan="7" class="text-center py-4 text-muted">No testimonials yet. <a href="{{ route('admin.testimonials.create') }}">Add one</a></td></tr>
                 @endforelse
             </tbody>
         </table>
