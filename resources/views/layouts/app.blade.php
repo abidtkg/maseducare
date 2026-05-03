@@ -126,7 +126,11 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
-                <div class="footer-title">{{ setting('general.site_name', 'MAS EduCare') }}</div>
+                @if(setting('general.footer_logo'))
+                    <img src="{{ asset(setting('general.footer_logo')) }}" alt="{{ setting('general.site_name', 'MAS EduCare') }}" style="max-height:60px;max-width:180px;object-fit:contain;margin-bottom:12px">
+                @else
+                    <div class="footer-title">{{ setting('general.site_name', 'MAS EduCare') }}</div>
+                @endif
                 <p class="mt-3" style="line-height:1.9">{{ setting('general.tagline') }}</p>
                 <div class="footer-social mt-3">
                     @if(setting('general.facebook_url'))<a href="{{ setting('general.facebook_url') }}" target="_blank"><i class="bi bi-facebook"></i></a>@endif
