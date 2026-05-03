@@ -44,10 +44,10 @@
                 </div>
 
                 <div class="d-flex flex-wrap gap-3 mt-5">
-                    <div class="stat-badge"><div class="stat-number">500+</div><div class="stat-label">🎓 {{ __('messages.common.graduates') }}</div></div>
-                    <div class="stat-badge"><div class="stat-number">200+</div><div class="stat-label">✈️ {{ __('messages.common.departures') }}</div></div>
-                    <div class="stat-badge"><div class="stat-number">95%</div><div class="stat-label">📋 {{ __('messages.common.visa_rate') }}</div></div>
-                    <div class="stat-badge"><div class="stat-number">6+</div><div class="stat-label">🏫 {{ __('messages.common.senseis') }}</div></div>
+                    <div class="stat-badge"><div class="stat-number">{{ setting('hero.stat_graduates', '500+') }}</div><div class="stat-label">🎓 {{ __('messages.common.graduates') }}</div></div>
+                    <div class="stat-badge"><div class="stat-number">{{ setting('hero.stat_departures', '200+') }}</div><div class="stat-label">✈️ {{ __('messages.common.departures') }}</div></div>
+                    <div class="stat-badge"><div class="stat-number">{{ setting('hero.stat_visa_rate', '95%') }}</div><div class="stat-label">📋 {{ __('messages.common.visa_rate') }}</div></div>
+                    <div class="stat-badge"><div class="stat-number">{{ setting('hero.stat_senseis', '6+') }}</div><div class="stat-label">🏫 {{ __('messages.common.senseis') }}</div></div>
                 </div>
             </div>
         </div>

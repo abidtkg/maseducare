@@ -29,6 +29,10 @@ class SettingsSeeder extends Seeder
             ['key' => 'hero.background_image',     'value' => '',                                   'type' => 'image',    'group' => 'hero', 'label' => 'Hero Background Image'],
             ['key' => 'hero.cta_primary_text',     'value' => 'কোর্সে ভর্তি হন',                   'type' => 'text',     'group' => 'hero', 'label' => 'CTA Primary Text'],
             ['key' => 'hero.cta_secondary_text',   'value' => 'ভিসা প্রক্রিয়া জানুন',              'type' => 'text',     'group' => 'hero', 'label' => 'CTA Secondary Text'],
+            ['key' => 'hero.stat_graduates',       'value' => '500+',                               'type' => 'text',     'group' => 'hero', 'label' => '🎓 Graduates Count'],
+            ['key' => 'hero.stat_departures',      'value' => '200+',                               'type' => 'text',     'group' => 'hero', 'label' => '✈️ Japan Departures Count'],
+            ['key' => 'hero.stat_visa_rate',       'value' => '95%',                                'type' => 'text',     'group' => 'hero', 'label' => '📋 Visa Success Rate'],
+            ['key' => 'hero.stat_senseis',         'value' => '6+',                                 'type' => 'text',     'group' => 'hero', 'label' => '🏫 Expert Senseis Count'],
 
             // About / Founder
             ['key' => 'about.founder_name',        'value' => 'মোঃ আব্দুল মান্নান',                'type' => 'text',     'group' => 'about', 'label' => 'Founder Name'],
